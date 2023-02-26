@@ -1,0 +1,61 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Yantramanav', sans-serif;
+  margin:0px;
+  padding: 0px;
+
+}
+
+/* ! icon */
+.my-small-icon{
+  max-width: 23px;
+}
+
+/* ! image */
+.my-circular-profile{
+  height: 3rem;
+
+}
+
+/* ! links */
+.my-no-text-decor{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* !navbar shadow */
+/* .floatingNav {
+  width: calc(100vh - 100px); 
+  border-radius: 2px;
+  box-shadow: 0px 1px 10px #999;
+} */
+
+
+
+
+/* ! text-mod */
+
+.indented{
+  text-indent: 40px;
+
+
+}
+@media only screen and (max-width: 426px) {
+ 
+  #nav-img-profile{
+    display: none;
+  }
+
+ 
+}
+@media only screen and (min-width: 426px) {
+  #carousel-con{
+    height: 50vh;
+  }
+}

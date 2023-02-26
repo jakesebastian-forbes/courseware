@@ -1,0 +1,100 @@
+.my-course-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.my-course-card-container > div{
+    /* grid-column: 1 / span 3; */
+    margin: 15px;
+}
+
+.my-course-card{
+    background-color: rgb( 255, 255, 255);
+    /* height: 300px; */
+    width: 300px;
+    aspect-ratio: 50/49      ;
+    border-radius: 12px;
+    border: 1px rgb(224, 224, 224) solid;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    min-height: 285px;
+    min-width: 276px;
+}
+
+.my-card-heading{
+    background-color: aqua;
+    height: 40%;
+    border-radius: 12px 12px 0px 0px;
+    position: relative;
+
+}
+.my-card-title > p{
+    padding: 2px;
+    margin: 0px 0px 0px 22px ;  
+
+}
+.my-card-title > h3{
+    padding: 8px;
+    margin: 0px 0px 2px 2px ;  
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+
+.my-card-title > :is(h3, p){
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.my-facilitator-profile{
+    background-color: red;
+    width: 22%;
+    /* height: 80px; */
+    aspect-ratio: 1/1;
+    border-radius: 50%; 
+    margin-left: 77%; 
+    margin-top: -10%; 
+}
+
+.my-overview-assignment li a{
+    text-decoration: none;
+
+}
+
+.my-card-footer{
+    background-color: rgb(255, 255, 255);
+    height: 20%;
+    position:static;
+    margin-top: auto;
+    border-radius:0px 0px 12px 12px ;
+    border-top: 1px solid rgb(239, 239, 239);
+}
+
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 426px) {
+ 
+    .my-card-title > :is(h3){
+        font-size: 16px;
+    }
+    .my-card-title > :is(p){
+        font-size: 14px;
+    }
+  
+  
+}
