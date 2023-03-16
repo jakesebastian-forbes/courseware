@@ -9,7 +9,7 @@
 <body>
 
     <?php
-        $xs = "I23-".uniqid();
+        $xs = "6489a05e-2d76-4a9e-a9e5-ff83f659daae";
         echo (strlen($xs) . " - " . $xs);
     ?>
     
